@@ -1,13 +1,8 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#profile {
+  mask-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGZpbGw9IiNEQzI2MjYiIGQ9Ik0zMi45LC01NS41QzQzLjgsLTQ0LjEsNTQuNiwtMzcsNTguMywtMjcuMUM2MiwtMTcuMyw1OC43LC00LjcsNTgsOS4yQzU3LjQsMjMuMSw1OS41LDM4LjIsNTMuMiw0Ni43QzQ2LjgsNTUuMiwzMi4xLDU3LjEsMTguOCw1OC42QzUuNSw2MCwtNi40LDYxLjEsLTE1LjgsNTYuOUMtMjUuMiw1Mi43LC0zMi4xLDQzLjMsLTM2LjQsMzRDLTQwLjcsMjQuNywtNDIuNCwxNS41LC00OS4zLDMuOEMtNTYuMiwtOCwtNjguMiwtMjIuMywtNjYuMiwtMzEuOEMtNjQuMywtNDEuMiwtNDguNCwtNDUuOSwtMzUsLTU2LjFDLTIxLjcsLTY2LjQsLTEwLjgsLTgyLjIsMC4xLC04Mi4zQzExLC04Mi41LDIyLC02Ni45LDMyLjksLTU1LjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAgMTAwKSIgLz4KPC9zdmc+Cg==);
+  mask-repeat: no-repeat;
 }
