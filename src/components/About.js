@@ -53,7 +53,7 @@ const About = () => {
   ];
   return (
     <section id="about-section" className="py-8 text-center bg-red-600">
-      <Zoom cascade duration={300}>
+      <Zoom cascade duration={300} triggerOnce>
         <div className="mb-4 text-white ">
           <h1 className="mb-4 font-mono text-2xl font-semibold md:-ml-20 md:text-4xl">
             About Me
@@ -76,7 +76,7 @@ const About = () => {
         </div>
 
         <div className="container flex mt-8 justify-center mx-auto gap-4 max-w-[600px] flex-wrap">
-          <Zoom cascade duration={150} delay={300}>
+          <Zoom cascade duration={300} delay={300} triggerOnce>
             {techStack.map((tech, index) => (
               <div
                 key={index}
@@ -84,10 +84,10 @@ const About = () => {
               >
                 <img
                   src={tech.iconUrl}
-                  alt=""
+                  alt={tech.label}
                   className=" drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] w-[35px] md:w-auto"
                 />
-                <p className="text-white">{tech.label}</p>
+                <p className="text-sm text-white md:text-md">{tech.label}</p>
               </div>
             ))}
           </Zoom>

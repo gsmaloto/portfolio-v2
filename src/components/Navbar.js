@@ -21,7 +21,7 @@ const Navbar = () => {
   ];
 
   return (
-    <Slide direction="down" duration={500}>
+    <Slide direction="down" duration={1000}>
       <nav className="flex justify-between text-md container mx-auto h-[60px] px-2 md:px-0 text-black-1">
         <div className="flex items-center">
           <h3 className="pr-2 border-r-2 md:mr-16">Gs</h3>
